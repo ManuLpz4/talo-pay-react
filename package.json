@@ -1,0 +1,30 @@
+{
+  "name": "@talo-pay/react",
+  "version": "0.0.1",
+  "description": "The Talo's React components.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run clean && tsc",
+    "clean": "rm -rf dist"
+  },
+  "author": "Manu Lopez",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.12",
+    "eslint": "^8.43.0",
+    "eslint-config-prettier": "^8.8.0",
+    "prettier": "^2.8.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manulpz4/talo-pay-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manulpz4/talo-pay-react/issues"
+  },
+  "homepage": "https://github.com/manulpz4/talo-pay-react#readme"
+}

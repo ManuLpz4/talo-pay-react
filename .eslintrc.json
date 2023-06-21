@@ -1,0 +1,31 @@
+{
+    "env": {
+      "browser": true,
+      "es2021": true,
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:react/recommended",
+      "plugin:react/jsx-runtime",
+      "plugin:prettier/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true,
+        "experimentalObjectRestSpread": true,
+        "requireConfigFile": false
+      },
+      "ecmaVersion": 12,
+      "sourceType": "module"
+    },
+    "plugins": ["react", "prettier", "import", "@typescript-eslint"],
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    }
+  }
+  

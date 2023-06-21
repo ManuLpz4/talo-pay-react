@@ -1,0 +1,3 @@
+interface PayWithTaloButtonProps {
+    userId: string;
+}
